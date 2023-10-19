@@ -45,6 +45,18 @@
     margin-top: 50px;
 }
 
+.margin-custom-tp4 {
+    margin-top: -250px;
+}
+
+.margin-custom-tp5 {
+    margin-top: -800px;
+}
+
+.margin-custom-tp6 {
+    margin-top: -700px;
+}
+
 
 .text-bg-custom{
     background-color: var(--Light-Zima-Blue, #F1F4FF);
@@ -178,15 +190,12 @@ color: (--Light-Zima-Blue, #F1F4FF);
 }
 
 
-.pattern {
-    position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: 
-    linear-gradient(45deg, rgba(255,255,255,0.5) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.5) 75%, transparent 75%, transparent);
-  mix-blend-mode: overlay; /* Gaya campuran (blend mode) */
+.overlay {
+    width: 576.438px;
+height: 326.442px;
+flex-shrink: 0;
+fill: var(--Zima-Blue, #2C58F1);
+opacity: 0.2;
+filter: blur(67px);
 }
-  
- 
+
