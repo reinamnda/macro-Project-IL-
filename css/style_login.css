@@ -21,13 +21,21 @@ body {
   justify-content: center;
   max-width: fit-content;
   background: #ffffff;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.466);
 }
 
 table {
   padding: none;
-  size: 90px;
+}
+.foto {
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  padding: 10px;
 }
 
 .td-1 {
@@ -49,29 +57,43 @@ table {
   background-color: rgb(255, 255, 255);
   border-radius: 0px 20px 20px 0;
 }
+
 .login {
-  width: 400px;
+  width: 500px;
 }
-.logo {
-  width: 300px;
+
+.txttop p {
+  text-align: center;
 }
+.txttop p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+}
+.txttop p:nth-child(2) {
+  font-size: 10px;
+}
+
+#colmn {
+  display: flex;
+  justify-content: space-between;
+}
+
 form {
-  width: 300px;
-  margin: 60px auto;
+  width: 400px;
+  margin: 20px auto;
 }
 
 hr {
   border-top: 2px solid black;
 }
 
-.teks p {
-  margin-top: 10px;
-  text-align: left;
-  font-size: 15px;
-  margin: 10px;
+.txtbotom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
 }
-.teks p a {
-  font-weight: bold;
+.txtbotom p:nth-child(1) {
+  font-size: 15px;
 }
 
 form label {
@@ -87,28 +109,32 @@ input {
   border: none;
   outline: none;
   padding: 8px;
-  border-radius: 5px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-.forgot {
-  text-align: right;
-  font-size: 13px;
-}
 button {
+  margin-top: 10px;
   border: none;
   outline: none;
   padding: 8px;
-  width: 252px;
+  width: 100%;
   color: white;
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
-  margin-top: 10px;
   border-radius: 100px;
   background: #2c58f1;
 }
 
 button:hover {
   background: #3254d1;
+}
+
+.checkbox {
+  display: flex;
+  width: 100%;
+}
+.checkbox p {
+  padding: 10px;
+  font-size: 13px;
 }
