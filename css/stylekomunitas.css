@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+.container1 {
+  width: min(90%, 1140px);
+  margin: 50px auto;
+}
+
+.containerforum {
+  position: relative;
+}
+
+.containerforum::before {
+  content: "";
+  background-color: #2c58f1;
+  position: absolute;
+  min-height: 100%;
+  width: 1px;
+}
+
+.containerforum:not(:first-child) {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+
+.containercard {
+  display: grid;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 100%;
+}

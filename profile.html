@@ -1,6 +1,7 @@
 <!Doctype html>
 <head>
     <title> Beasiswaku</title>
+    <link rel="icon" type="img/logo2.png" href="img/logo2.png">
 
     <meta content="viewport" content="width=device-width, initial-scale=1.0"> 
 
@@ -16,41 +17,47 @@
 
     <!-- Customised CSS Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styleprofile.css">
+
 </head>
 
 <body>
+  <!-- BAGIAN NAVBAR -->
     <script src ="js/bootstrap.min.js"> </script>
     <nav class="navbar navbar-expand-lg navbar-light bs-white">
-        <a class="navbar-brand margin-custom-lft" href="#"><b>Beasiswaku</b></a>
+        <a class="navbar-brand margin-custom-lft" href="#">
+          <img style ="width: 170px; height:50px;" src="img/logo2.png" alt="logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id= "navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link m-3" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link active text-decoration-none m-3" href="index2.html">Beranda <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item m-3">
-                        <a class="nav-link" href="#">Jelajahi</a>
+                        <a class="nav-link" href="jelajahi.html">Jelajahi</a>
                     </li>
                     <li class="nav-item m-3">
-                        <a class="nav-link" href="#">Komunitas</a>
+                        <a class="nav-link" href="komunitas.html">Komunitas</a>
                     </li>
                     <li class="nav-item m-3">
-                        <a class="nav-link" href="#">Premium</a>
+                        <a class="nav-link" href="premium.html">Premium</a>
                     </li>
                     <li class="nav-item m-3">
-                        <a class="nav-link" href="#">Profil</a>
+                        <a class="nav-link" href="profil.html">Profil</a>
                     </li>
                 </ul>
 
+                <div class="profil-lg">
+                  <a href="profil.html"></a>
+                  <img style="border-radius: 50%; height: 40px; width: 40px;" src="img/bea-1.jpg">
+                </div>
+
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end margin-custom-rg ">
-                    <button  class="btn btn-sm btn-custom me-md-2" type="button" >
-                        <a href="signup.html">Sign Up</a>
-                    </button>
-                    
+                  <button class="btn btn-sm btn-custom me-md-2" type="button">
+                    <a href="index.html">Sign Out</a></button>
                 </div>
         </div>
     </nav>
@@ -74,8 +81,10 @@
         <div class="usernamebar">
             <div class="icon">
                 <img class="icons" src="asset/icons.png"alt="icon">
-                <p>sarah123
-                    sarah123@gmail.com</p>
+                <div>
+                    <p>JohnLuks09</p>
+                    <p>johntrisihombing@gmail.com</p>
+                </div>
             </div>
             <div class="username">
                 <div class="biodata">
@@ -103,17 +112,14 @@
                         <label for="">Bio
                             <textarea name="" id="" cols="53" rows="5">Tak perlu kata - kata yang ada hanya fakta
 -JohnNicoleAcumalka2023-</textarea>
-                </label>
-                </div>
-                </div>
-              
-                </div>
+                        </label>
+                    </div>
+                    <div>
+                        <button class="buttonsave">Save</button>
+                    </div>
+                </div >  
             </div>
-            <button>Save</button>  
         </div>
-    </div>
-    <div>
-
     </div>
 </section>
 
